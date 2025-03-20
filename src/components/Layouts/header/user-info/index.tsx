@@ -16,9 +16,9 @@ export function UserInfo() {
   const [isOpen, setIsOpen] = useState(false);
 
   const USER = {
-    name: "John Smith",
+    name: "Bardiya Sexy",
     email: "johnson@nextadmin.com",
-    img: "/images/user/user-03.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZFWN6h5BJqd4_wXnnlX9SRdDi5omiRpZ7lA&s",
   };
 
   return (
@@ -60,7 +60,7 @@ export function UserInfo() {
           <Image
             src={USER.img}
             className="size-12"
-            alt={`Avatar for ${USER.name}`}
+            alt={`Avatar of ${USER.name}`}
             role="presentation"
             width={200}
             height={200}
